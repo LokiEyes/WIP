@@ -12,7 +12,7 @@ int main() {
     printf("       A B R A\n");
     printf("        A B R\n");
     printf("         A B\n");
-    printf("          A");
+    printf("          A\n");
 
     return 0;
 }

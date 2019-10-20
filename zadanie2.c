@@ -6,13 +6,13 @@ int main(void) {
     float a, b, c, delta, x1, x2;
     printf("Prosze podac po spacji 3 liczby rzeczywiste: a =/= 0, b oraz c,\n");
     printf("potrzebne do rozwiazania rownania kwadratowego.\n");
-    scanf_s("%f", &a);
-    scanf_s("%f", &b);
-    scanf_s("%f", &c);
+    scanf("%f", &a);
+    scanf("%f", &b);
+    scanf("%f", &c);
 
     while (a == 0) {
         printf("a jest rowne 0, wprowadz ponownie:\n");
-        scanf_s("%f", &a);
+        scanf("%f", &a);
     }
 
     delta = b*b - 4*a*c;
@@ -32,5 +32,6 @@ int main(void) {
         printf("rownanie nie posiada rozwiazan");
     }
 
+    printf("\n");
     return 0;
 }
