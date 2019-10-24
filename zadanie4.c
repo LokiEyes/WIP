@@ -15,9 +15,6 @@ int main(void) {
         for (int znaki = 0; znaki < 2*wiersz - 1; ++znaki) {
             printf("*");
         }
-        for (int spacje2 = 0; spacje2 < n-wiersz; ++spacje2) {
-            printf(" ");
-        }
         printf("\n");
     }
     return 0;
