@@ -5,7 +5,7 @@ int main(void) {
     int length = 0;
     float f, suma = 0;
 
-    printf("Prosze podac ilosc liczb do wczytania:\n");
+    printf("Prosze podac liczbe liczb do wczytania:\n");
     do {
         scanf("%d", &length);
         if (length <= 0)
