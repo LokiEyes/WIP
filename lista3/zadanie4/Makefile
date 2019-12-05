@@ -1,5 +1,4 @@
 all: main
-	rm -f *.o
 
 main: main.o newagent.o north.o south.o east.o west.o distance.o
 	clang -o zadanie4.out main.o newagent.o north.o south.o east.o west.o distance.o -lm

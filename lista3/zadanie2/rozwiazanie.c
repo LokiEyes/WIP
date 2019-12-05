@@ -6,7 +6,7 @@ double rozwiazanie(double a, double b, double eps) {
 
     while ( b - a > eps ) {
         c = ( a + b )/2;
-    
+
         if ( f(c) == 0 ) {
             return c;
         } else {
@@ -14,8 +14,8 @@ double rozwiazanie(double a, double b, double eps) {
                 b = c;
             else
                 a = c;
-        } 
+        }
     }
 
-    return c;
+    return a;
 }

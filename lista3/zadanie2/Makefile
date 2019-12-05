@@ -1,5 +1,4 @@
 all: main
-	rm -f *.o
 
 main: main.o rozwiazanie.o f.o
 	clang -o zadanie2.out main.o f.o rozwiazanie.o -lm

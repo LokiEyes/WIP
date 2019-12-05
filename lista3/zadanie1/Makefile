@@ -1,5 +1,4 @@
 all: main
-	rm -f *.o
 
 main: main.o palindrom.o
 	clang -o zadanie1.out main.o palindrom.o

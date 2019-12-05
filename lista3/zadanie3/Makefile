@@ -1,5 +1,4 @@
 all: main
-	rm -f *.o
 
 main: main.o phi.o nwd.o
 	clang -o zadanie3.out main.o phi.o nwd.o

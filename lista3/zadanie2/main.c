@@ -4,7 +4,7 @@
 int main(void) {
     
     for ( int k = 1; k <= 8; k++ ) {
-        printf( "%.2f\n", rozwiazanie( 2, 4, pow( 10, -k)  ) );
+        printf( "%f\n", rozwiazanie( 3.1415, 3.1416, pow( 10, -k)  ) );
     }
 
     return 0;
