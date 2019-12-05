@@ -4,7 +4,7 @@
 int main (void) {
 
     struct agent Bob = newagent(0, 0);
-    struct agent Alice = newagent(1, 0);
+    struct agent Alice = newagent(3, 3);
 
     north(&Bob);
     south(&Alice);
